@@ -31,10 +31,7 @@ public abstract class Book implements lendable {
         this.name = name;
     }
 
-    @Override
-    public boolean isAvailable() {
-        return isAvailable;
-    }
+
 
     public void setAvailable(boolean available) {
         isAvailable = available;
@@ -55,6 +52,18 @@ public abstract class Book implements lendable {
 
     @Override
     public void returnBook(User user) {
-
+        System.out.println("This Book: " + getName() +"is returned by " + user.getName());
+        isAvailable = true;
     }
+
+    @Override
+    public boolean isAvailable() {
+        if(isAvailable){
+            System.out.println("This Book is avaiable");
+        }
+        System.out.println("This Book is not available");
+        return false;
+    }
+
+    public abstract void displayBookDetails();
 }
