@@ -26,8 +26,8 @@ public class Employee extends User{
 
     @Override
     public void userDashboard() {
-        System.out.println("The member id is :"+ getUserId());
-        System.out.println("The member name is :" +getName());
+        System.out.println("The employee id is :"+ getUserId());
+        System.out.println("The employee name is :" +getName());
     }
 
     @Override

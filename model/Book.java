@@ -59,7 +59,8 @@ public abstract class Book implements lendable {
     @Override
     public boolean isAvailable() {
         if(isAvailable){
-            System.out.println("This Book is avaiable");
+            System.out.println("This Book is available");
+            return true;
         }
         System.out.println("This Book is not available");
         return false;

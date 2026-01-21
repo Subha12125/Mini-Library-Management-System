@@ -1,0 +1,24 @@
+--- All Books ---
+Novel Details :
+The book title is: jorrd boy and the genre is game
+Novel Details :
+The book title is: Mervel and the genre is Comic
+TextBook Details :
+The book title is: c++ and the genre is programing
+TextBook Details :
+The book title is: Java and the genre is programing
+
+--- Search Results for 'Java' ---
+TextBook Details :
+The book title is: Java and the genre is programing
+
+--- User Dashboards ---
+The member id is :user1
+The member name is :Subha op
+The employee id is :user3
+The employee name is :Sir
+
+--- Lending Test ---
+This Book is available
+This book:jorrd boy is lended to Subha op
+This Book is not available
